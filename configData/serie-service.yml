@@ -14,7 +14,7 @@ spring:
 
 info:
   application:
-    name: api-service
+    name: api-serie
 
 eureka:
   instance:
