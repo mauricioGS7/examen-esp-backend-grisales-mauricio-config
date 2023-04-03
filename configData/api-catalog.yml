@@ -6,7 +6,7 @@ spring:
 
 info:
   application:
-    name: catalog-service
+    name: api-catalog
 
 eureka:
   instance:
