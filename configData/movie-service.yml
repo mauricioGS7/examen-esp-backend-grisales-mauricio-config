@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: movie-service
+    name: api-movie
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3307/movie-dev
