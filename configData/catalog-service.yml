@@ -55,15 +55,10 @@ resilience4j:
         automatic-transition-from-open-to-half-open-enabled: true
         failure-rate-threshold: 50
     instances:
-      moviesFailed:
+      moviesSeriesFailed:
         base-config: default
         sliding-window-type: COUNT_BASED
         sliding-window-size: 5
         wait-duration-in-open-state: 1m
         failure-rate-threshold: 40
-      seriesFailed:
-        base-config: default
-        sliding-window-type: COUNT_BASED
-        sliding-window-size: 5
-        wait-duration-in-open-state: 1m
-        failure-rate-threshold: 40
+
